@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="../js/presentation.js"></script>
+    <script src="../js/app.js"></script>
+
+    <link rel="stylesheet" href="../css/amazium.css">
+    <link rel="stylesheet" href="../css/base.css">
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="row">
+    <article class="grid_12">
+        <h2>Presentations</h2>
+    </article>
+</section>
+<section class="row">
+    <article class="grid_4">
+        <a href="#" title="See all" id="seeAll" class="btn"><i class="fa fa-th"></i></a>
+    </article>
+    <article class="grid_4">
+        <p>
+            Fast open presentation
+        </p>
+    </article>
+    <article class="grid_4" id="fastOpenContainer">
+    </article>
+</section>
+
+<section id="seeAllContainer" class="row">
+</section>
+
+<section class="row">
+
+    <div id="prevNextButtons" style="display: none">
+        <article class="grid_6" style="">
+            <a id="_prev" href="#" class="btn white">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+        </article>
+        <article class="grid_6" style="">
+            <a id="_next" href="#" class="btn white">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </article>
+    </div>
+
+    <!--Here presentations should be inserted as:
+    <article id="presentation_#" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="" class="img-max">
+        </p>
+        ...
+        etc.
+    -->
+
+    <article id="presentation_1" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a3647848609_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1098264117_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a3440424801_2.jpg" class="img-max">
+        </p>
+    </article>
+
+    <article id="presentation_2" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a0959309314_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a3319684103_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1468138606_2.jpg" class="img-max">
+        </p>
+    </article>
+    <article id="presentation_3" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a4182626431_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1382700321_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a3005417354_2.jpg" class="img-max">
+        </p>
+    </article>
+    <article id="presentation_4" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1517573739_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1023765921_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a0569058768_2.jpg" class="img-max">
+        </p>
+    </article>
+    <article id="presentation_5" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1772439751_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a0933228266_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a2307943768_2.jpg" class="img-max">
+        </p>
+    </article>
+    <article id="presentation_6" class="grid_12 presentation" style="display: none">
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1670174481_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1487955681_2.jpg" class="img-max">
+        </p>
+
+        <p class="imgContainer">
+            <img src="http://f1.bcbits.com/img/a1468742483_2.jpg" class="img-max">
+        </p>
+    </article>
+</section>
+
+</body>
+</html>
